@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { defineComponent, useCssModule, PropType, ref, Ref, nextTick, reactive } from 'vue'
 import emitter from '@/mitt'
 import { MenuItem } from './Mindmap/variable/contextmenu'
